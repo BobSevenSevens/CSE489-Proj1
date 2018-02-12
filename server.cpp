@@ -25,17 +25,17 @@ cout << "Input command";
 cin >> userinput;
 
 if(userinput == "AUTHOR"){
-	cout << (“I, %s, have read and understood the course academic integrity policy.\n”, rhrosent)
-	cout << (“I, %s, have read and understood the course academic integrity policy.\n”, your_ubit_name) //Fill in yours here?
+	cout << ("I, %s, have read and understood the course academic integrity policy.\n", rhrosent)
+	cout << ("I, %s, have read and understood the course academic integrity policy.\n", your_ubit_name) //Fill in yours here?
 	}
 if(userinput == "IP"){
 	//Get and print server IP
-	cout << (“IP:%s\n”, ip_addr)
+	cout << ("IP:%s\n", ip_addr)
 }	
 
 if(userinput == "PORT"){
 	//Get and print server port
-	cout << (“PORT:%d\n”, port)
+	cout << ("PORT:%d\n", port)
 
 
 	
