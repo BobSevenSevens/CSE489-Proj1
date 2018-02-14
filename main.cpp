@@ -6,6 +6,8 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 
+int port = 0; //This will get fileld in by our command line
+
 
 
 void connection(){
@@ -18,8 +20,7 @@ void connection(){
 	
 }
 
-int main(int argc, char**argv){ //This takes command line arguments
-
+void servercommands(){ //Server commands
 string userinput;
 cout << "Input command";
 cin >> userinput;
@@ -40,3 +41,28 @@ if(userinput == "PORT"){
 
 	
 }
+
+void clientcommands(){ //Client commands go here
+	string userinput;
+	cout << "Input command";
+	cin >> userinput;
+
+	
+	
+}
+
+int main(int argc, char**argv){ //This takes command line arguments
+	char type = argv[0]; //This is either s for server or c for client
+	port = [int]argv[1] //Setting the port to whatever got sent in the command line
+	
+	if(type == 's')
+		servercommands(); //Go to the server commands
+	else
+		clientcommands(); //Go to the client comands
+		
+	
+
+
+return 0;
+}
+
