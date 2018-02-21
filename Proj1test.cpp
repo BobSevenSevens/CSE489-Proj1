@@ -26,6 +26,10 @@ while(arg){
 }
 
 /* Process commands */
+if((strcmp(argv[0], "AUTHOR"))){
+	cout << ("I, %s, have read and understood the course academic integrity policy.\n", rhrosent);
+	cout << ("I, %s, have read and understood the course academic integrity policy.\n", minghann);
+}
 if((strcmp(argv[0], "HELP"))){
 	fprintf("[%s:SUCCESS]\n", command_str);
 	else{
