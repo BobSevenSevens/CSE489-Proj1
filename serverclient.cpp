@@ -69,6 +69,16 @@ int main(int argc, char* argv[]){
 		// // ... do everything until you don't need servinfo anymore ...
 
 		// freeaddrinfo(servinfo); // free the linked-list
+		string userinput;
+		out << "Input command";
+		cin >> userinput;
+		if(userinput == "AUTHOR"){
+			cse4589_print_and_log("[%s:SUCCESS]\n", userinput))
+			cse4589_print_and_log("I, %s, have read and understood the course academic integrity policy.\n", rhrosent) //I think we have to both submit and just change the name here
+			cse4589_print_and_log("[%s:END]\n", userinput);
+		}
+
+		
 	}
 	if(mode == 'c'){
 		cout << "Hi, I'm Client" << endl;
